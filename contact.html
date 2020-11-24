@@ -15,25 +15,25 @@
 </head>
 
 <body>
-  <!--Navigation Bar in Dark Theme with Links-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    
+
+    <!--Navigation Bar in Dark Theme with Links-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="#">Contact</a>
-        <a class="nav-link" href="#">Portfolio</a>
-        <a class="nav-link" href="#">Quirkiness</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </div>
-    </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
 
-  </nav>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#">Quirkiness</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </div>
+        </div>
+    </nav>
       
     <!--Must be consistent on each page with links:
         - Home/About (bio, name & images)
@@ -45,9 +45,11 @@
 
             <section class="col-md-12">
                 <section class="contact-card">
+                    <section class="card-header">
+                        <h2>Contact</h2>
+                      </section>
                     <form>
                         <div class="form-group">
-                            <h1>Contact</h1>
                             <label for="exampleFormControlInput1">Name</label>
                             <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
                         </div>
