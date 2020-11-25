@@ -2,7 +2,12 @@
     padding: 0 15px;
     margin: 0px 15px 20px 15px;
     line-height: 150%;
+    background-color: #eee;
   }
+
+.navbar {
+  border-bottom: 5px solid salmon !important;
+}
 
 html, body {
     height: 100%;
@@ -11,6 +16,9 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/dw24-tiger-tang-02-sakura_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=a3d098b877576a0e392bf0a98d32812e);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
 .content {
@@ -57,7 +65,7 @@ body {
 
 .btn-primary {
   background-color: #d9534f !important;
-  border: 5px pink !important;
+  border: 2px pink !important;
   color: #eeeeee !important;
 }
 
@@ -70,7 +78,8 @@ body {
 
 .footer {
     width: 100%;
-    background-color: #2e2e2e;
+    background-color: lightgray;
+    color: #2e2e2e;
     text-align: center;
     padding-top: 15px;
     margin-top: 15px;
