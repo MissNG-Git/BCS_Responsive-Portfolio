@@ -1,5 +1,6 @@
 .container {
     padding: 0 15px;
+    margin: 0px 15px 20px 15px;
     line-height: 150%;
   }
 
@@ -16,6 +17,12 @@ body {
     flex: 1 0 auto;
   }
 
+/*Google Fonts styling*/
+#handle {
+  font-family: 'Sacramento', cursive;
+  font-size: larger;
+}
+
 .responsive-img {
     height: 300px;
     width: 300px;
@@ -31,11 +38,11 @@ body {
 .carousel-inner img {
     width: auto;
     height: 100%;
-    padding: 10px;
 }
 
 .carousel-item {
     text-align: center;
+    margin-bottom: 35px;
 }
 
 .carousel-control-prev-icon,
@@ -44,15 +51,28 @@ body {
     width: 100px;
     background-size: 100%, 100%;
     border-radius: 50%;
-    border: 1px solid black;
     background-image: none;
     filter: invert(100%);
   }
+
+.btn-primary {
+  background-color: #d9534f !important;
+  border: 5px pink !important;
+  color: #eeeeee !important;
+}
+
+.footer,
+.contact-card
+.jumbotron {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .footer {
     width: 100%;
     background-color: #2e2e2e;
     text-align: center;
-    padding: 0 15px;
+    padding-top: 15px;
+    margin-top: 15px;
     flex-shrink: 0;
   }
