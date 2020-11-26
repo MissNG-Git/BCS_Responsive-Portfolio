@@ -1,25 +1,28 @@
 # 02 CSS and Bootstrap: Responsive Portfolio
 
-Starting with a client-provided foundation code, my task was to refactor (improve without changing functionality) the <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/index.html">HTML</a> & <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/assets/css/style.css">CSS</a> files to ensure accessibility elements were included for the site. This will allow for people with disabilities to access the website with assistive technologies and also position the site more favorably on search engines like Google 😄 :smile: 
+If you're looking for a little insight into the life of _MissNg_ <sub>(my online alias 😎)</sub>, then you've come to the right place! I designed this website as a brief intro. into my background, personality and aspirations. My short-term goal is simply to help others get to know me a bit better and have an outlet to view some of my work. My long-term goal is to further my full-stack education in the coming years which will in turn help me to build upon this website. I invite you to visit this site regularly so you can join me on my coding journey and watch how I blossom as a Web Developer~ ❀ƸӜƷ❀
 
 ## Objectives
 ```
 + Create a mobile responsive website inclusive of three linked pages: About (Home), Contact & Portfolio
 + Utilise semantic HTML elements and lay out in a logical HTML structure
-+ Utilise Bootstrap's grid system and 
++ Utilise Bootstrap's grid system and components to ensure user interface is aligned proportionately
++ Ensure site accessbility is maintained by including viewport compatibility, alt text to images & labels for form elements.
++ Run all codes through HTML validation services to confirm validity
 
-+ WHEN viewing image elements : THEN FIND accessible alt attributes
-+ WHEN viewing heading attributes : THEN FIND they fall in sequential order
-+ WHEN viewing title element : THEN FIND a concise, descriptive title
 ```
 
 ## Target Design
 
-The following images show the web application's appearance and functionality:
+The following images show the web application's appearance and responsive functionality:
 
-![sample design](./Assets/01-html-css-git-homework-demo.png)
+![sample mobile design](https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/400-contact.png)
 
-### Overview of Code Improvements & Functionality
+![sample tablet design](https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/768-portfolio.png)
+
+![sample desktop design](https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/992-index.png)
+
+### Overview of Code Functionality
 
 1. Application's links all function correctly.
 
@@ -27,18 +30,20 @@ The following images show the web application's appearance and functionality:
 
 3. Application's CSS file is properly commented.
 
-4. Application's title amended to be more descriptive.
-
-5. Application's HTML elements refined to be more semantically-appropriate.
-
-6. Application's HTML structure re-arranged more logically.
-
-7. Application's images updated with alternative text (alt) attributes.
+4. Application includes use of sub-rows/columns as wel as sticky footer.
 
 ### Usability
 
-* Click on "Search Engine Optimization" in header to view corresponding 'SEO' brief
+* Click "About" in navbar to go to homepage
 
-* Click on "Online Reputation Management" in header to view corresponding 'ORM' brief
+* Click "Contact" in navbar to go to contact form
 
-* Click on "Social Media Marketing" header to view corresponding 'SMM' brief
+* Click "Portfolio" in navbar to go to my colletion of works & socials
+
+* Click the 'controls / indicators' for the carousel to manually scroll through available puppy photos
+
+* Note: 'Submit' button on "Contact" page is not linked and will not transmit any information or details
+
+* Click on any 'logo image' contained within each of the four cards (GitHub, LinkedIn, YouTube & Facebook) to open a new window or tab for my respective site pages
+
+* Click "MissNG" in navbar at any time to go back to the homepage (also the 'About' page)

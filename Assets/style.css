@@ -43,6 +43,11 @@ body {
   font-size: larger;
 }
 
+#gremlin {
+  font-family: 'Emilys Candy', cursive;
+  font-size: larger;
+}
+
 .responsive-img {
     height: 350px;
     width: 350px;
