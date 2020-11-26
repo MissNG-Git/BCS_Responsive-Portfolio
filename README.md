@@ -16,11 +16,22 @@ If you're looking for a little insight into the life of _MissNg_ <sub>(my online
 
 The following images show the web application's appearance and responsive functionality:
 
-![sample mobile design](https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/400-contact.png)
+##### Sample Mobile Design
+<img src="https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/400-contact.png/" 
+alt="Sample Mobile Design" 
+style="float: left; margin-right: 10px"/>
 
-![sample tablet design](https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/768-portfolio.png)
+##### Sample Tablet Design
+<img src="https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/768-portfolio.png/" 
+alt="Sample Tablet Design" 
+style="float: left; margin-right: 10px"/>
 
-![sample desktop design](https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/992-index.png)
+
+##### Sample Desktop Design
+<img src="https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/992-index.png/" 
+alt="Sample Desktop Design" 
+style="float: left; margin-right: 10px"/>
+
 
 ### Overview of Code Functionality
 
@@ -34,16 +45,16 @@ The following images show the web application's appearance and responsive functi
 
 ### Usability
 
-* Click "About" in navbar to go to homepage
+* Click "<a href="https://missng-git.github.io/BCS_Responsive-Portfolio/index.html">About</a>" in navbar to go to homepage.
 
-* Click "Contact" in navbar to go to contact form
+* Click "<a href="https://missng-git.github.io/BCS_Responsive-Portfolio/Pages/contact.html">Contact</a>" in navbar to go to contact form.
 
-* Click "Portfolio" in navbar to go to my colletion of works & socials
+* Click "<a href="https://missng-git.github.io/BCS_Responsive-Portfolio/Pages/portfolio.html">Portfolio</a>" in navbar to go to my colletion of works & socials.
 
-* Click the 'controls / indicators' for the carousel to manually scroll through available puppy photos
+* Click the 'controls / indicators' for the carousel to manually scroll through available puppy photos.
 
-* Note: 'Submit' button on "Contact" page is not linked and will not transmit any information or details
+* Note: 'Submit' button on "<a href="https://missng-git.github.io/BCS_Responsive-Portfolio/Pages/contact.html">Contact</a>" page is not linked and will not transmit any information or details.
 
-* Click on any 'logo image' contained within each of the four cards (GitHub, LinkedIn, YouTube & Facebook) to open a new window or tab for my respective site pages
+* Click on any 'logo image' contained within each of the four cards (GitHub, LinkedIn, YouTube & Facebook) to open a new window or tab for my respective site pages.
 
-* Click "MissNG" in navbar at any time to go back to the homepage (also the 'About' page)
+* Click "<a href="https://missng-git.github.io/BCS_Responsive-Portfolio/index.html">MissNG</a>" in navbar at any time to go back to the homepage (also the 'About' page).
