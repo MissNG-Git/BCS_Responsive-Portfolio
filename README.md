@@ -17,10 +17,10 @@ If you're looking for a little insight into the life of _MissNg_ <sub>(my online
 The following images show the web application's appearance and responsive functionality:
 
 **Sample Mobile Design**
-![sample mobile design](./Assets/Images/400-contact.png =360x191)
+<img src="./Assets/Images/400-contact.png" alt="Sample Mobile Design" width="191" height="360">
 
 **Sample Tablet Design**
-![sample tablet design](./Assets/Images/760-portfolio.png)
+<img src="./Assets/Images/768-portfolio.png" alt="Sample Tablet Design" width="191" height="360">
 
 **Sample Desktop Design**
 ![sample mobile design](./Assets/Images/992-index.png)
