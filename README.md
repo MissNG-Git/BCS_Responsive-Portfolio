@@ -1,87 +1,47 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# 02 CSS and Bootstrap: Responsive Portfolio
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+## Website Accessibility Optimization
 
+Starting with a client-provided foundation code, my task was to refactor (improve without changing functionality) the <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/index.html">HTML</a> & <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/assets/css/style.css">CSS</a> files to ensure accessibility elements were included for the site. This will allow for people with disabilities to access the website with assistive technologies and also position the site more favorably on search engines like Google 😄 :smile: 
 
-## Directions
+As I was working on someone else's code, I made sure to adhere to the **Scout Rule** and have *hopefully* left the code a little cleaner than what was originally supplied. I tried to improve the codebase with long-term sustainability in mind, and made sure that all links are functioning correctly. I've also reworked the <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/assets/css/style.css">CSS</a> to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
-First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+## Objectives
+```
++ SUPPLY a webpage that meets accessibility standards
++ WHEN viewing source code : THEN FIND semantic HTML elements
++ WHEN viewing structure of the HTML elements : THEN FIND elements follow a logical structure
++ WHEN viewing image elements : THEN FIND accessible alt attributes
++ WHEN viewing heading attributes : THEN FIND they fall in sequential order
++ WHEN viewing title element : THEN FIND a concise, descriptive title
+```
 
-* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
+## Target Design
 
-* Using Bootstrap, develop your portfolio site with the following items:
+The following image shows the web application's appearance and functionality:
 
-   * A navbar
+![intended design](./Assets/01-html-css-git-homework-demo.png)
 
-   * A responsive layout
+### Overview of Code Improvements & Functionality
 
-   * Responsive images
+1. Application's links all function correctly.
 
-* The Bootstrap portfolio should minimize the use of media queries.
+2. Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
 
-* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
+3. Application's CSS file is properly commented.
 
-### Hints
+4. Application's title amended to be more descriptive.
 
-* Use Bootstrap's grid system (containers, rows, and columns).
+5. Application's HTML elements refined to be more semantically-appropriate.
 
-* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
+6. Application's HTML structure re-arranged more logically.
 
-* Use an HTML validation service to ensure that each page has valid HTML.
+7. Application's images updated with alternative text (alt) attributes.
 
-### Minimum Requirements
+### Usability
 
-* Functional, deployed application
+* Click on "Search Engine Optimization" in header to view corresponding 'SEO' brief
 
-* GitHub repository with README describing the project
+* Click on "Online Reputation Management" in header to view corresponding 'ORM' brief
 
-* Navbar must be consistent on each page.
-
-* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
-
-* All links must work.
-
-* Must use semantic html.
-
-* Each page must have valid and correct HTML. (use a validation service)
-
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
-
-* Must properly utilize Bootstrap components and grid system.
-
-### Bonus
-
-* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URLs of the deployed applications
-
-* The URLs of the GitHub repositories
-
-- - -
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
-# BCS_Responsive-Portfolio
+* Click on "Social Media Marketing" header to view corresponding 'SMM' brief
