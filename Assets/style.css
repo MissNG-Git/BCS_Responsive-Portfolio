@@ -5,6 +5,7 @@
     background-color: #eee;
   }
 
+  /*Add border to Bootstrap default syling of navbar*/
 .navbar {
   border-bottom: 5px solid salmon !important;
 }
@@ -43,7 +44,9 @@ body {
 
 .carousel-item,
 .carousel-inner,
-.carousel-inner img {
+.carousel-inner img,
+.carousel-control-prev-icon,
+.carousel-control-next-icon  {
     width: auto;
     height: 100%;
 }
@@ -55,14 +58,13 @@ body {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
     background-size: 100%, 100%;
     border-radius: 50%;
     background-image: none;
     filter: invert(100%);
   }
 
+/*Override Bootstrap default styling of button*/
 .btn-primary {
   background-color: #d9534f !important;
   border: 2px pink !important;
@@ -75,6 +77,7 @@ body {
   width: 200px;
 }
 
+/*Center-align to page*/
 .footer,
 .row,
 .row4,

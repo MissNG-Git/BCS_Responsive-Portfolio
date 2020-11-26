@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng-us">
+<html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
@@ -33,16 +33,11 @@
         <a class="nav-link" href="../index.html">About</a>
         <a class="nav-link" href="contact.html">Contact</a>
         <a class="nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><em>More content soon!</em></a>
       </div>
     </div>
   </nav>
-      
-    <!--Must be consistent on each page with links:
-        - Home/About (bio, name & images)
-        - Contact (links, social)
-        - Portfolio (linked in, Git-->
-
+  
   <!--Portfolio Jumbotron w/external links-->
   <section class="container">
     <section class="row">
@@ -54,16 +49,18 @@
             <hr class="my-4">
             <p>My Portfolio & Socials showcasing some projects:</p>
 
-              <!--WORKING CARDS: IMG Links, IMG = screenshot, txt = brief descript-->
+            <!--Portfolio Cards w/img links-->
             <div class="row row-cols-1 row-cols-md-2">
               <div class="col mb-4 py-2">
+                <!--Ensure card height = 100 for all cards-->
                 <div class="card h-100">
                   <a href="https://github.com/MissNG-Git/" target="blank"> 
                     <img src="https://sdtimes.com/wp-content/uploads/2018/06/GitHub-Mark.png" class="card-img-top" alt="GitHub Logo">
                   </a>
                     <div class="card-body">
                     <h5 class="card-title">GitHub</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">A collection of repositories which house my various different web devlopment projects. 
+                      A handful of these will include homework and classwork activities from my full stack web development course.</p>
                   </div>
                 </div>
               </div>
@@ -74,7 +71,8 @@
                   </a>
                   <div class="card-body">
                     <h5 class="card-title">LinkedIn</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">My career portfolio detailing the various roles I have been recruited for in the past. 
+                      It is a place where I share the many opportunities I am thankful for as it provides a consolidated, but detailed look at my skilles and work experience.</p>
                   </div>
                 </div>
               </div>
@@ -85,7 +83,7 @@
                   </a>
                   <div class="card-body">
                     <h5 class="card-title">YouTube</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">A recently created account where I plan to host my stream activities during my web development down-time.</p>
                   </div>
                 </div>
               </div>
@@ -110,26 +108,13 @@
   <!--Sticky Footer-->
   <footer class="footer">
     <div class="foot-box">
-      <span class="text-muted">
+      <div class="text-muted">
         <p>I <i class="far fa-heart"></i> Sticky Footers!<br>
-          © 2020 Copyright: <strong>MissNG</strong></p>
-      </span>
+        © 2020 Copyright: <strong>MissNG</strong></p>
+        </div>
     </div>
   </footer>
 
-    <!--*Remember to:
-        - minimise use of media queries
-        - use Bootstrap's grid system (containers, rows, columns)
-        - use margins, particularly on left & right of screen
-        - confirm usability/layout on pc vs mobile device
-        - use HTML validation service (google)*-->
-
-    <!--REQUIREMENTS:
-        - Functional application deployment
-        - README
-        - Working links
-        - Semantic HTML
-    -->
 </body>
 
 </html>
