@@ -17,18 +17,13 @@ If you're looking for a little insight into the life of _MissNg_ <sub>(my online
 The following images show the web application's appearance and responsive functionality:
 
 **Sample Mobile Design**
-![sample mobile design](./Assets/Images/400-contact.png)
+![sample mobile design](./Assets/Images/400-contact.png =360x191)
 
 **Sample Tablet Design**
-<img src="https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/768-portfolio.png/" 
-alt="Sample Tablet Design" 
-style="float: left; margin-right: 10px"/>
-
+![sample tablet design](./Assets/Images/760-portfolio.png)
 
 **Sample Desktop Design**
-<img src="https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/992-index.png/" 
-alt="Sample Desktop Design" 
-style="float: left; margin-right: 10px"/>
+![sample mobile design](./Assets/Images/992-index.png)
 
 
 ### Overview of Code Functionality
