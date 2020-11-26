@@ -86,6 +86,10 @@ body {
     filter: invert(100%);
   }
 
+form {
+  padding-top: 15px;
+}
+
 /*Override Bootstrap default styling of button*/
 .btn-primary {
   background-color: #d9534f !important;

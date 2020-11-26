@@ -16,13 +16,13 @@ If you're looking for a little insight into the life of _MissNg_ <sub>(my online
 
 The following images show the web application's appearance and responsive functionality:
 
-**Sample Mobile Design**
+**Sample Mobile Design** \
 <img src="./Assets/Images/400-contact.png" alt="Sample Mobile Design" width="191" height="360">
 
-**Sample Tablet Design**
+**Sample Tablet Design** \
 <img src="./Assets/Images/768-portfolio.png" alt="Sample Tablet Design" width="191" height="360">
 
-**Sample Desktop Design**
+**Sample Desktop Design** \
 ![sample mobile design](./Assets/Images/992-index.png)
 
 
