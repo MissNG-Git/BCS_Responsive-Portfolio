@@ -16,18 +16,16 @@ If you're looking for a little insight into the life of _MissNg_ <sub>(my online
 
 The following images show the web application's appearance and responsive functionality:
 
-##### Sample Mobile Design
-<img src="https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/400-contact.png/" 
-alt="Sample Mobile Design" 
-style="float: left; margin-right: 10px"/>
+**Sample Mobile Design**
+![sample mobile design](./Assets/Images/400-contact.png)
 
-##### Sample Tablet Design
+**Sample Tablet Design**
 <img src="https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/768-portfolio.png/" 
 alt="Sample Tablet Design" 
 style="float: left; margin-right: 10px"/>
 
 
-##### Sample Desktop Design
+**Sample Desktop Design**
 <img src="https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-11-2020-u-c/blob/master/Week2_CSS-Bootstrap/Homework/Assets/Images/992-index.png/" 
 alt="Sample Desktop Design" 
 style="float: left; margin-right: 10px"/>
