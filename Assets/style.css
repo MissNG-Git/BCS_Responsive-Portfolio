@@ -38,7 +38,7 @@ body {
   }
 
 /*Google Fonts styling*/
-#handle {
+.handle {
   font-family: 'Sacramento', cursive;
   font-size: larger;
 }
