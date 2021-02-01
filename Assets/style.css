@@ -73,8 +73,12 @@ body {
     height: 100%;
 }
 
+.carousel-item,
+.footer {
+  text-align: center;
+}
+
 .carousel-item {
-    text-align: center;
     margin-bottom: 35px;
 }
 
@@ -103,6 +107,10 @@ form {
   width: 200px;
 }
 
+#foodDome {
+  padding: 20px 0px 0px 10px;
+}
+
 /*Center-align to page*/
 .footer,
 .row,
@@ -116,7 +124,6 @@ form {
     width: 100%;
     background-color: lightgray;
     color: #2e2e2e;
-    text-align: center;
     padding-top: 15px;
     margin-top: 15px;
     flex-shrink: 0;
