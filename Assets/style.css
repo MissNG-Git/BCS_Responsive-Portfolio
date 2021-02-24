@@ -1,9 +1,9 @@
 .container {
-    padding: 0 15px;
-    margin: 0px 15px 20px 15px;
-    line-height: 150%;
-    background-color: #eee;
-  }
+  padding: 0 15px;
+  margin: 0px 15px 20px 15px;
+  line-height: 150%;
+  background-color: #eee;
+}
 
 /*Add border to Bootstrap default syling of navbar*/
 .navbar {
@@ -11,25 +11,19 @@
   min-height: 67px;
 }
 
-@media screen and (max-width: 768px) {
-  .navbar {
-    color: #2e2e2e !important
-  }
+html, body {
+  height: 100%;
 }
 
-html, body {
-    height: 100%;
-  }
-
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/dw24-tiger-tang-02-sakura_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=a3d098b877576a0e392bf0a98d32812e);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/dw24-tiger-tang-02-sakura_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=a3d098b877576a0e392bf0a98d32812e);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .content {
@@ -48,10 +42,10 @@ body {
 }
 
 .responsive-img {
-    height: 350px;
-    width: 350px;
-    float: left;
-    padding: 15px;
+  height: 350px;
+  width: 350px;
+  float: left;
+  padding: 15px;
 }
 
 .col-md-8 {
@@ -60,7 +54,7 @@ body {
 }
 
 .carousel {
-    height: 500px;
+  height: 500px;
 }
 
 .carousel-item,
@@ -68,8 +62,8 @@ body {
 .carousel-inner img,
 .carousel-control-prev-icon,
 .carousel-control-next-icon  {
-    width: auto;
-    height: 100%;
+  width: auto;
+  height: 100%;
 }
 
 .carousel-item,
@@ -79,16 +73,16 @@ body {
 }
 
 .carousel-item {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    background-image: none;
-    filter: invert(100%);
-  }
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+  filter: invert(100%);
+}
 
 form,
 .fb,
@@ -102,10 +96,6 @@ form,
   border: 2px pink !important;
   color: #eeeeee !important;
   margin-bottom: 15px;
-}
-
-.card {
-  height: 350px;
 }
 
 .card img {
@@ -122,8 +112,12 @@ form,
   padding-bottom: 15px;
 }
 
-.project {
+.project-ref {
   color: deeppink !important;
+}
+
+.repo-ref {
+  color: darkgray !important;
 }
 
 .footer-ref {
@@ -140,9 +134,15 @@ form,
 }
 
 .footer {
-    width: 100%;
-    background-color: lightgray;
-    color: #2e2e2e;
-    margin-top: 15px;
-    flex-shrink: 0;
+  width: 100%;
+  background-color: lightgray;
+  color: #2e2e2e;
+  margin-top: 15px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    color: #2e2e2e !important
   }
+}
