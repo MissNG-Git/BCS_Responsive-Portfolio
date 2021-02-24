@@ -106,6 +106,12 @@ form {
   width: 200px;
 }
 
+.fb {
+  size: 90%;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
 #foodDome {
   padding: 20px 0px 0px 10px;
 }
