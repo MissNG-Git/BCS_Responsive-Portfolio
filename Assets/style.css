@@ -126,6 +126,10 @@ form,
   color: deeppink !important;
 }
 
+.footer-ref {
+  color: salmon !important;
+}
+
 /*Center-align to page*/
 .footer,
 .row,
