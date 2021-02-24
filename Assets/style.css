@@ -21,7 +21,6 @@ html, body {
     height: 100%;
   }
 
-/*Insert full page background image*/
 body {
     display: flex;
     flex-direction: column;
@@ -31,11 +30,11 @@ body {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-  }
+}
 
 .content {
     flex: 1 0 auto;
-  }
+}
 
 /*Google Fonts styling*/
 .handle {
