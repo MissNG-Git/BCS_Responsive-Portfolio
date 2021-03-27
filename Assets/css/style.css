@@ -11,7 +11,8 @@
   min-height: 67px;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -19,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/dw24-tiger-tang-02-sakura_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=a3d098b877576a0e392bf0a98d32812e);
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/dw24-tiger-tang-02-sakura_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=a3d098b877576a0e392bf0a98d32812e);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -27,17 +28,17 @@ body {
 }
 
 .content {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 /*Google Fonts styling*/
 .handle {
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   font-size: larger;
 }
 
 #gremlin {
-  font-family: 'Emilys Candy', cursive;
+  font-family: "Emilys Candy", cursive;
   font-size: larger;
 }
 
@@ -61,7 +62,7 @@ body {
 .carousel-inner,
 .carousel-inner img,
 .carousel-control-prev-icon,
-.carousel-control-next-icon  {
+.carousel-control-next-icon {
   width: auto;
   height: 100%;
 }
@@ -122,6 +123,8 @@ form,
 
 .footer-ref {
   color: salmon !important;
+  size: 50px;
+  padding: 0px 5px 0px 5px;
 }
 
 /*Center-align to page*/
@@ -143,6 +146,6 @@ form,
 
 @media screen and (max-width: 768px) {
   .navbar {
-    color: #2e2e2e !important
+    color: #2e2e2e !important;
   }
 }
