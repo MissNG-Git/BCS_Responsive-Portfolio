@@ -20,9 +20,10 @@ If you're looking for a little insight into the life of _MissNg_ <sub>(my online
 The following images show the web application's appearance and responsive functionality:
 
 <p float="left">
-    <img src="./assets/img/400-contact.png" alt="Sample Mobile Design" width="191" height="360" style="margin-right: 10px;">
-    <img src="./assets/img/768-portfolio.png" alt="Sample Tablet Design" width="191" height="360" style="margin-right: 10px;">
-    <img src="./assets/img/400-index.png" alt="Sample Desktop Design" width="191" height="360" style="margin-right: 10px;">
+    <img src="./assets/img/about.PNG" alt="Folio About Page" width="191" height="360" style="margin-right: 10px;">
+    <img src="./assets/img/contact.PNG" alt="Folio Contact Page" width="191" height="360" style="margin-right: 10px;">
+    <img src="./assets/img/portfolio.PNG" alt="Folio Portfolio Page" width="191" height="360" style="margin-right: 10px;">
+    <img src="./assets/img/featured.PNG" alt="Folio Featured Page" width="191" height="360" style="margin-right: 10px;">
 </p>
 
 ### ≫ ──── ≪•◦ Overview of Code Functionality ◦•≫ ──── ≪
