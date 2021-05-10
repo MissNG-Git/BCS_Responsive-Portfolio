@@ -20,10 +20,10 @@ If you're looking for a little insight into the life of _MissNg_ <sub>(my online
 The following images show the web application's appearance and responsive functionality:
 
 <p float="left">
-    <img src="https://github.com/MissNG-Git/folio/blob/main/Assets/img/about.PNG" alt="Folio About Page" width="191" height="360" style="margin-right: 10px;">
-    <img src="https://github.com/MissNG-Git/folio/blob/main/Assets/img/contact.PNG" alt="Folio Contact Page" width="191" height="360" style="margin-right: 10px;">
-    <img src="https://github.com/MissNG-Git/folio/blob/main/Assets/img/portfolio.PNG" alt="Folio Portfolio Page" width="191" height="360" style="margin-right: 10px;">
-    <img src="https://github.com/MissNG-Git/folio/blob/main/Assets/img/featured.PNG" alt="Folio Featured Page" width="191" height="360" style="margin-right: 10px;">
+    <img src="https://github.com/MissNG-Git/folio/blob/main/Assets/img/about.PNG" alt="Folio About Page" width="600" height="360" style="margin-right: 10px;">
+    <img src="https://github.com/MissNG-Git/folio/blob/main/Assets/img/contact.PNG" alt="Folio Contact Page" width="600" height="360" style="margin-right: 10px;">
+    <img src="https://github.com/MissNG-Git/folio/blob/main/Assets/img/portfolio.PNG" alt="Folio Portfolio Page" width="600" height="360" style="margin-right: 10px;">
+    <img src="https://github.com/MissNG-Git/folio/blob/main/Assets/img/featured.PNG" alt="Folio Featured Page" width="600" height="360" style="margin-right: 10px;">
 </p>
 
 ### ≫ ──── ≪•◦ Overview of Code Functionality ◦•≫ ──── ≪
